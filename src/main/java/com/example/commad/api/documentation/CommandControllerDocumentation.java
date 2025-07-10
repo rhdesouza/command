@@ -8,6 +8,10 @@ import java.util.List;
 
 @Tag(name = "Command", description = "Command Controller")
 public interface CommandControllerDocumentation {
+
     @Operation(summary = "Get Command", description = "Retornar todos os commands cadastrados")
     ResponseEntity<List<String>> getCommands();
+
+    @Operation(summary = "Execute Command", description = "Executa o comando")
+    void executeCommand(String command);
 }
