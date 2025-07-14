@@ -1,5 +1,6 @@
 package com.example.commad.domain.command;
 
+import com.example.commad.domain.command.repository.RepositoryCommand;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 
